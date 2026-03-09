@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/malintheier/workflow-repo-ca.git"
+    "url": "git+https://github.com/NoroffFEU/workflow-repo-ca.git"
   },
   "bugs": {
-    "url": "https://github.com/malintheier/workflow-repo-ca/issues"
+    "url": "https://github.com/NoroffFEU/workflow-repo-ca/issues"
   },
-  "homepage": "https://github.com/malintheier/workflow-repo-ca#readme"
+  "homepage": "https://github.com/NoroffFEU/workflow-repo-ca#readme"
 }
