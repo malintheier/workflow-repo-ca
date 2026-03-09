@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
+    "lint": "eslint .",
     "prepare": "husky install",
     "test": "vitest",
     "test:e2e": "playwright test"
