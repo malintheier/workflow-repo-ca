@@ -28,7 +28,8 @@ const loginPassword = getEnvValue("LOGIN_PASSWORD");
 
 test.describe("Login page", () => {
   test.beforeEach(async ({ page }) => {
-    await page.addInitScript(() => {
+    await page.goto("/");
+    await page.evaluate(() => {
       localStorage.clear();
     });
   });
