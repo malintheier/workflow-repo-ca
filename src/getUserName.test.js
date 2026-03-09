@@ -11,8 +11,8 @@ describe("getUsername", () => {
   });
 
   it("returns the user name when a user is stored", () => {
-    saveUser({ name: "Malin" });
-    expect(getUsername()).toBe("Malin");
+    saveUser({ name: "Test User" });
+    expect(getUsername()).toBe("Test User");
   });
 
   it("returns undefined when stored user exists without name", () => {
