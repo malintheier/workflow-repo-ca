@@ -7,7 +7,7 @@ export async function displayVenueList() {
 
   try {
     const venues = await getVenues();
-    renderVenueList(container, venues);
+    renderVenueList(container, venues.data);
   } catch (error) {
     console.log(error);
     displayMessage(container, "error", error.message);
