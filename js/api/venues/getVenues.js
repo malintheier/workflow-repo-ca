@@ -1,7 +1,7 @@
 import { CONFIG } from "../../config.js";
 
 export async function getVenues() {
-  const url = `${CONFIG.apiUrl}venues`;
+  const url = `${CONFIG.apiUrl}holidaze/venues`;
 
   const response = await fetch(url);
   const json = await response.json();
